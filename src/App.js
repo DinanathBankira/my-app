@@ -1,5 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar';
+
 let name="Dinanath";
 function App() {
   return (
@@ -40,7 +41,7 @@ function App() {
     </div>
   </div>
 </nav>
-    
+    <Navbar/>
     </>
   );
 }
