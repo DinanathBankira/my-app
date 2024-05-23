@@ -3,13 +3,13 @@ import { useState } from 'react'
 
 export default function TextForm(props) {
     const handleUpClick= ()=>{
-        console.log("Uppercase was Clicked"+text);
+        // console.log("Uppercase was Clicked"+text);
         let newText=text.toUpperCase();
         setText(newText);
     }
 
     const handerOnChange=(event)=>{
-        console.log("On Change");
+        // console.log("On Change");
         setText(event.target.value)
     }
 

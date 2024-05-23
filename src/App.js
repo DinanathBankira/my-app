@@ -8,9 +8,9 @@ function App() {
     <>
 
     <Navbar title="Bankira" Home="House"/>
-    <div className="container my-3">
+    {/* <div className="container my-3">
     <TextForm heading="Enter a text to analize blow"/>
-    </div>
+    </div> */}
 
     {/* <Navbar/> */}
     </>
