@@ -3,17 +3,17 @@ import React, { useState } from 'react'
 export default function TextFro(props) {
 
 const handleOnClick=()=>{
-  console.log("Cliked on handleOnClick"+text);
+  // console.log("Cliked on handleOnClick"+text);
   let newText=text.toUpperCase();
   setText(newText);
 }
 
 const handleOnChange=(event)=>{
-  console.log("Clicked on Changeed");
+  // console.log("Clicked on Changeed");
   setText(event.target.value);
 }
 
-  const [text,setText]=useState('Enter Your textg hear');
+  const [text,setText]=useState('Enter Your textg hear'); //main Topic
   return (
     <div>
       <h1>{props.heading}</h1>
