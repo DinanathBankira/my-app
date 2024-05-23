@@ -44,3 +44,7 @@ export default function Navbar(props){
 Navbar.propTypes={title: PropTypes.string,
                     Home: PropTypes.string
 }
+Navbar.defaulProps={
+    title:'Set the titel here',
+    Home:'Dinanath'
+}

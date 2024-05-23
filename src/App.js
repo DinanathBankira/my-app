@@ -6,7 +6,9 @@ function App() {
   return (
     <>
 
-    <Navbar title="Bankira" Home="House"/>
+    {/* <Navbar title="Bankira" Home="House"/> */}
+
+    <Navbar/>
     </>
   );
 }
