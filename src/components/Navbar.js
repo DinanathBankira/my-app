@@ -41,10 +41,11 @@ export default function Navbar(props){
 </nav>
     )
 }
-Navbar.propTypes={title: PropTypes.string,
+Navbar.propTypes={title: PropTypes.string.isRequired,
                     Home: PropTypes.string
 }
-Navbar.defaulProps={
-    title:'Set the titel here',
-    Home:'Dinanath'
-}
+
+// Navbar.defaulProps={
+//     title:'Set',
+//     Home:'Dinanath'
+// };
